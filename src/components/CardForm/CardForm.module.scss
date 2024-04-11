@@ -1,0 +1,34 @@
+.columnForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    button{
+        margin: 0 12px;
+    }
+
+    input{
+        margin: 0;
+    }
+}
+
+@media (max-width: 1200px){
+    .columnForm{
+        flex-direction: column;
+
+        span, button{
+            margin: 12px 0;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .columnForm{
+        flex-direction: row;
+
+        span, button{
+            margin: 0 12px;
+        }
+    }
+}
