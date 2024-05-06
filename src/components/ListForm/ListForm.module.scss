@@ -1,0 +1,24 @@
+.listForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  span, button{
+      margin: 0 12px;
+  }
+
+  input{
+      margin: 0;
+  }
+}
+
+@media (max-width: 768px){
+  .columnForm{
+      flex-direction: column;
+
+      span, button{
+          margin: 12px 0;
+      }
+  }
+}
