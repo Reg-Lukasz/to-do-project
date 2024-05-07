@@ -32,7 +32,8 @@ const initialState = {
       { id: 3, columnId: 2, title: 'Harry Potter', isFavorite: false },
       { id: 4, columnId: 2, title: 'Star Wars', isFavorite: true },
       { id: 5, columnId: 3, title: 'The Witcher', isFavorite: false },
-      { id: 6, columnId: 3, title: 'Skyrim', isFavorite: false }
+      { id: 6, columnId: 3, title: 'Skyrim', isFavorite: false },
+      { id: 7, columnId: 4, title: 'Test', isFavorite: false }
     ],
 
     lists: [
